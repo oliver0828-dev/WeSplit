@@ -22,7 +22,7 @@ struct ContentView: View {
         let tipSelection = Double(tipPercentage)
         
         let tipValue = checkAmount / 100 * tipSelection
-        return tipValue
+        return tipValue + amount
     }
     
 
